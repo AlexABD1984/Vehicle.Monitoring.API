@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  scania.vehicle.monitoring.statusapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

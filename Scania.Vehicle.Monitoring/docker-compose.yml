@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  scania.vehicle.monitoring.statusapi:
+    image: ${DOCKER_REGISTRY}scaniavehiclemonitoringstatusapi
+    build:
+      context: .
+      dockerfile: src/Microservices/Scania.Vehicle.Monitoring.StatusAPI/Dockerfile

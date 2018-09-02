@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scania.Vehicle.Monitoring.StatusAPI", "src\Microservices\Scania.Vehicle.Monitoring.StatusAPI\Scania.Vehicle.Monitoring.StatusAPI.csproj", "{AA56F246-7587-4247-B867-0C61486BE802}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EF6C1D19-DCFA-4DD1-A578-E9F4B4486749}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E8C18CBA-84A1-4D0D-8C9D-2CBDBEDA6C7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{15FCEF4C-2FFF-4638-9EA0-02753F41456D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A0849DCB-351B-4E98-9FD0-8598DC040DA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastucture", "Infrastucture", "{C785223D-9C98-45DE-8092-99B77D152013}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{F60DA6E5-0F30-4DB5-8201-34F6A4021971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scania.Vehicle.Monitoring.WebUI", "src\Client\Scania.Vehicle.Monitoring.WebUI\Scania.Vehicle.Monitoring.WebUI.csproj", "{383D779F-EAC5-4D12-9E43-A06FD3AB4FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scania.Monitoring.UnitTest", "src\Tests\Scania.Monitoring.UnitTest\Scania.Monitoring.UnitTest.csproj", "{25455D19-F5A0-494C-A974-DA3F26AEF0A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA56F246-7587-4247-B867-0C61486BE802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA56F246-7587-4247-B867-0C61486BE802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA56F246-7587-4247-B867-0C61486BE802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA56F246-7587-4247-B867-0C61486BE802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6C1D19-DCFA-4DD1-A578-E9F4B4486749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6C1D19-DCFA-4DD1-A578-E9F4B4486749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6C1D19-DCFA-4DD1-A578-E9F4B4486749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6C1D19-DCFA-4DD1-A578-E9F4B4486749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383D779F-EAC5-4D12-9E43-A06FD3AB4FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383D779F-EAC5-4D12-9E43-A06FD3AB4FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383D779F-EAC5-4D12-9E43-A06FD3AB4FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383D779F-EAC5-4D12-9E43-A06FD3AB4FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25455D19-F5A0-494C-A974-DA3F26AEF0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25455D19-F5A0-494C-A974-DA3F26AEF0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25455D19-F5A0-494C-A974-DA3F26AEF0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25455D19-F5A0-494C-A974-DA3F26AEF0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA56F246-7587-4247-B867-0C61486BE802} = {15FCEF4C-2FFF-4638-9EA0-02753F41456D}
+		{15FCEF4C-2FFF-4638-9EA0-02753F41456D} = {E8C18CBA-84A1-4D0D-8C9D-2CBDBEDA6C7E}
+		{F60DA6E5-0F30-4DB5-8201-34F6A4021971} = {E8C18CBA-84A1-4D0D-8C9D-2CBDBEDA6C7E}
+		{383D779F-EAC5-4D12-9E43-A06FD3AB4FAC} = {F60DA6E5-0F30-4DB5-8201-34F6A4021971}
+		{25455D19-F5A0-494C-A974-DA3F26AEF0A3} = {A0849DCB-351B-4E98-9FD0-8598DC040DA4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {731C734B-8E9C-417C-ADE3-DB319FF9B8C9}
+	EndGlobalSection
+EndGlobal
